@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #1F2535;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.5rem;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.hamburger {
+  height: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.main-text {
+  width: 35rem;
+  margin-top: 8rem;
+  margin-left: 3.5rem;
+  padding-bottom: 6rem;
+}
+
+.main-text p {
+  font-size:  1.4rem;
+}
+
+.p-main {
+  width: 23rem;
+  padding-bottom: 3.8rem;
+}
+
+button {
+  background-color: white;
+  color: #1F2535;
+  height: 5rem;
+  width: 10rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+
+.sectionBottom {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: white;
+  padding-top: 6rem;
+}
+
+.sectionBottom div{
+  margin: 0 1rem 3rem 1rem;
+  width: 9rem;
+}
+
+.sectionBottom img {
+  height: 6rem;
+}
+
+.sectionBottom h3 {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.sectionBottom p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.declarative-box {
+  color: #1F2535;
+}
+
+.components-box {
+  color: #1F2535;
+}
+
+.single-way-box {
+  color: #1F2535;
+}
+
+.jsx-box {
+  color: #1F2535;
+}
